@@ -1992,9 +1992,12 @@
     opacity: 1;
   }
 }
-.animate__fadeIn {
+@mixin animate__fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+.animate__fadeIn {
+  @include animate__fadeIn;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -2024,9 +2027,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInDown {
+@mixin animate__fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+}
+.animate__fadeInDown {
+  @include animate__fadeInDown;
 }
 
 @-webkit-keyframes fadeInDownBig {
@@ -2056,9 +2062,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInDownBig {
+@mixin animate__fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
+}
+.animate__fadeInDownBig {
+  @include animate__fadeInDownBig;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -2088,9 +2097,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInLeft {
+@mixin animate__fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+}
+.animate__fadeInLeft {
+  @include animate__fadeInLeft;
 }
 
 @-webkit-keyframes fadeInLeftBig {
@@ -2120,9 +2132,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInLeftBig {
+@mixin animate__fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
+}
+.animate__fadeInLeftBig {
+  @include animate__fadeInLeftBig;
 }
 
 @-webkit-keyframes fadeInRight {
@@ -2152,9 +2167,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInRight {
+@mixin animate__fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
+}
+.animate__fadeInRight {
+  @include animate__fadeInRight;
 }
 
 @-webkit-keyframes fadeInRightBig {
@@ -2184,9 +2202,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInRightBig {
+@mixin animate__fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
+}
+.animate__fadeInRightBig {
+  @include animate__fadeInRightBig;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -2216,9 +2237,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInUp {
+@mixin animate__fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+.animate__fadeInUp {
+  @include animate__fadeInUp;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -2248,9 +2272,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInUpBig {
+@mixin animate__fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
+}
+.animate__fadeInUpBig {
+  @include animate__fadeInUpBig;
 }
 
 @-webkit-keyframes fadeInTopLeft {
@@ -2278,9 +2305,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInTopLeft {
+@mixin animate__fadeInTopLeft {
   -webkit-animation-name: fadeInTopLeft;
   animation-name: fadeInTopLeft;
+}
+.animate__fadeInTopLeft {
+  @include animate__fadeInTopLeft;
 }
 
 @-webkit-keyframes fadeInTopRight {
@@ -2308,9 +2338,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInTopRight {
+@mixin animate__fadeInTopRight {
   -webkit-animation-name: fadeInTopRight;
   animation-name: fadeInTopRight;
+}
+.animate__fadeInTopRight {
+  @include animate__fadeInTopRight;
 }
 
 @-webkit-keyframes fadeInBottomLeft {
@@ -2338,9 +2371,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInBottomLeft {
+@mixin animate__fadeInBottomLeft {
   -webkit-animation-name: fadeInBottomLeft;
   animation-name: fadeInBottomLeft;
+}
+.animate__fadeInBottomLeft {
+  @include animate__fadeInBottomLeft;
 }
 
 @-webkit-keyframes fadeInBottomRight {
@@ -2368,9 +2404,12 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInBottomRight {
+@mixin animate__fadeInBottomRight {
   -webkit-animation-name: fadeInBottomRight;
   animation-name: fadeInBottomRight;
+}
+.animate__fadeInBottomRight {
+  @include animate__fadeInBottomRight;
 }
 /* Fading exits */
 @-webkit-keyframes fadeOut {
@@ -2392,9 +2431,12 @@
     opacity: 0;
   }
 }
-.animate__fadeOut {
+@mixin animate__fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
+}
+.animate__fadeOut {
+  @include animate__fadeOut;
 }
 
 @-webkit-keyframes fadeOutDown {
@@ -2420,9 +2462,12 @@
     transform: translate3d(0, 100%, 0);
   }
 }
-.animate__fadeOutDown {
+@mixin animate__fadeOutDown {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
+}
+.animate__fadeOutDown {
+  @include animate__fadeOutDown;
 }
 
 @-webkit-keyframes fadeOutDownBig {
@@ -2448,9 +2493,12 @@
     transform: translate3d(0, 2000px, 0);
   }
 }
-.animate__fadeOutDownBig {
+@mixin animate__fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
   animation-name: fadeOutDownBig;
+}
+.animate__fadeOutDownBig {
+  @include animate__fadeOutDownBig;
 }
 
 @-webkit-keyframes fadeOutLeft {
@@ -2476,9 +2524,12 @@
     transform: translate3d(-100%, 0, 0);
   }
 }
-.animate__fadeOutLeft {
+@mixin animate__fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
+}
+.animate__fadeOutLeft {
+  @include animate__fadeOutLeft;
 }
 
 @-webkit-keyframes fadeOutLeftBig {
@@ -2504,9 +2555,12 @@
     transform: translate3d(-2000px, 0, 0);
   }
 }
-.animate__fadeOutLeftBig {
+@mixin animate__fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
   animation-name: fadeOutLeftBig;
+}
+.animate__fadeOutLeftBig {
+  @include animate__fadeOutLeftBig;
 }
 
 @-webkit-keyframes fadeOutRight {
@@ -2532,9 +2586,12 @@
     transform: translate3d(100%, 0, 0);
   }
 }
-.animate__fadeOutRight {
+@mixin animate__fadeOutRight {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
+}
+.animate__fadeOutRight {
+  @include animate__fadeOutRight;
 }
 
 @-webkit-keyframes fadeOutRightBig {
@@ -2560,9 +2617,12 @@
     transform: translate3d(2000px, 0, 0);
   }
 }
-.animate__fadeOutRightBig {
+@mixin animate__fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig;
+}
+.animate__fadeOutRightBig {
+  @include animate__fadeOutRightBig;
 }
 
 @-webkit-keyframes fadeOutUp {
@@ -2588,9 +2648,12 @@
     transform: translate3d(0, -100%, 0);
   }
 }
-.animate__fadeOutUp {
+@mixin animate__fadeOutUp {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
+}
+.animate__fadeOutUp {
+  @include animate__fadeOutUp;
 }
 
 @-webkit-keyframes fadeOutUpBig {
@@ -2616,9 +2679,12 @@
     transform: translate3d(0, -2000px, 0);
   }
 }
-.animate__fadeOutUpBig {
+@mixin animate__fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
+}
+.animate__fadeOutUpBig {
+  @include animate__fadeOutUpBig;
 }
 
 @-webkit-keyframes fadeOutTopLeft {
@@ -2646,9 +2712,12 @@
     transform: translate3d(-100%, -100%, 0);
   }
 }
-.animate__fadeOutTopLeft {
+@mixin animate__fadeOutTopLeft {
   -webkit-animation-name: fadeOutTopLeft;
   animation-name: fadeOutTopLeft;
+}
+.animate__fadeOutTopLeft {
+  @include animate__fadeOutTopLeft;
 }
 
 @-webkit-keyframes fadeOutTopRight {
@@ -2676,9 +2745,12 @@
     transform: translate3d(100%, -100%, 0);
   }
 }
-.animate__fadeOutTopRight {
+@mixin animate__fadeOutTopRight {
   -webkit-animation-name: fadeOutTopRight;
   animation-name: fadeOutTopRight;
+}
+.animate__fadeOutTopRight {
+  @include animate__fadeOutTopRight;
 }
 
 @-webkit-keyframes fadeOutBottomRight {
@@ -2706,9 +2778,12 @@
     transform: translate3d(100%, 100%, 0);
   }
 }
-.animate__fadeOutBottomRight {
+@mixin animate__fadeOutBottomRight {
   -webkit-animation-name: fadeOutBottomRight;
   animation-name: fadeOutBottomRight;
+}
+.animate__fadeOutBottomRight {
+  @include animate__fadeOutBottomRight;
 }
 
 @-webkit-keyframes fadeOutBottomLeft {
@@ -2736,9 +2811,12 @@
     transform: translate3d(-100%, 100%, 0);
   }
 }
-.animate__fadeOutBottomLeft {
+@mixin animate__fadeOutBottomLeft {
   -webkit-animation-name: fadeOutBottomLeft;
   animation-name: fadeOutBottomLeft;
+}
+.animate__fadeOutBottomLeft {
+  @include animate__fadeOutBottomLeft;
 }
 /* Flippers */
 @-webkit-keyframes flip {
@@ -4390,4 +4468,3 @@
 .animate__slideOutUp {
   @include animate__slideOutUp;
 }
-
